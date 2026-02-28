@@ -15,15 +15,20 @@ open tictactoe.html
 
 ## GitHub Workflow
 
-This repo uses the GitHub CLI (`gh`). After every meaningful change, commit and push:
+Remote: `https://github.com/Lightfinder2025/browser-games`
+
+**Commit and push after every meaningful unit of work** — feature additions, bug fixes, and significant changes should each get their own commit immediately when complete. Never leave finished work uncommitted. This ensures the repo always reflects the latest working state and any version can be restored.
 
 ```bash
 git add <file>
-git commit -m "description"
+git commit -m "short imperative description of what changed and why"
 git push
 ```
 
-Remote: `https://github.com/Lightfinder2025/browser-games`
+Commit message guidelines:
+- Use the imperative mood: "Add X", "Fix Y", "Update Z"
+- Be specific — describe what changed, not just "update file"
+- One logical change per commit; don't bundle unrelated changes
 
 ## Architecture Pattern
 
